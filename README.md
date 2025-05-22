@@ -41,7 +41,7 @@ Welcome to the central hub for Bitrix24 developer tools. This repository offers 
 
 - **b24style**: Design tokens for Bitrix24 UI Kit. Provides the ability to create application interfaces that closely match the Bitrix24 user interface using Tailwind CSS utility classes. 
 
-  [GitHub Repository](https://github.com/bitrix24/b24style). Find more details in the [documentation](https://bitrix24.github.io/b24ui/)
+  [GitHub Repository](https://github.com/bitrix24/b24style). Find more details in the [documentation](https://bitrix24.github.io/b24style/)
 
 ### Icons
 
