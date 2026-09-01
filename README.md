@@ -1,90 +1,110 @@
-<img src="./b24devhub-header.png" alt="Bitrix24 Developer Hub" width="1195"/>
+# 🚀 xCLOUD Enterprise by ZDOS
 
-Welcome to the central hub for Bitrix24 developer tools. This repository offers a curated collection of official SDKs, UI kits, examples, and application templates to streamline your development process with the Bitrix24 platform.
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+![Made for ZDOS](https://img.shields.io/badge/Made%20for-ZDOS-orange.svg)
 
-## 📚 Table of Contents
+**xCLOUD Enterprise** è un fork avanzato del Bitrix24 Developer Hub, completamente rebrandizzato e ottimizzato per l'ecosistema **CloudX × ZDOS**. Questa soluzione enterprise-ready include un **DSN Layer**, **Portal Fusion**, **Nexus**, **Terminal** e pipeline di sviluppo avanzate, fornendo una piattaforma robusta per la gestione aziendale e l'innovazione tecnologica.
 
-- [SDKs and Libraries](#sdks-and-libraries)
-  - [PHP SDK](#php-sdk)
-  - [JavaScript/Node.js SDK](#javascriptnodejs-sdk)
-  - [Python SDK](#python-sdk)
-- [UI Tools](#ui-tools)
-  - [Bitrix24 UI Kit](#bitrix24-ui-kit)
-  - [Design Tokens](#design-tokens)
-  - [Icons](#icons)
-- [Usage Examples](#usage-examples)
-- [Application Templates](#application-templates)
-  - [Automation rules library](#automation-rules-library)
-- [Documentation](#documentation)
-
-## SDKs and Libraries
-
-### PHP SDK
-
-- **b24phpsdk**: The official PHP library for interacting with the Bitrix24 REST API. It supports both OAuth tokens and incoming webhooks, with features like automatic token renewal and offline queues.
-
-  [GitHub Repository](https://github.com/bitrix24/b24phpsdk). Find more details in the [documentation](https://apidocs.bitrix24.com/api-reference/b24phpsdk/index.html)
-
-### JavaScript/Node.js SDK
-
-- **b24jssdk**: The official JavaScript SDK for Bitrix24 REST API, compatible with both browser and Node.js environments. It supports modern JavaScript features and offers advantages over the traditional BX24.JS library.
-
-  [GitHub Repository](https://github.com/bitrix24/b24jssdk). Find more details in the [documentation](https://bitrix24.github.io/b24jssdk/)
-
-### Python SDK
-
-- **b24pydk**: The official Python library for interacting with the Bitrix24 REST API (beta version). It supports both OAuth tokens and incoming webhooks, with features like automatic token renewal and batch calls.
-
-  [GitHub Repository](https://github.com/bitrix24/b24pysdk). 
-  
-## UI Tools
-
-### Bitrix24 UI Kit
-
-- **b24ui**: A UI kit for developing web applications using the Bitrix24 REST API, built on NUXT & VUE. It provides a set of reusable components to accelerate development.
-
-  [GitHub Repository](https://github.com/bitrix24/b24ui). Find more details in the [documentation](https://bitrix24.github.io/b24ui/)
-
-### Design Tokens
-
-- **b24style**: Design tokens for Bitrix24 UI Kit. Provides the ability to create application interfaces that closely match the Bitrix24 user interface using Tailwind CSS utility classes. 
-
-  [GitHub Repository](https://github.com/bitrix24/b24style). Find more details in the [documentation](https://bitrix24.github.io/b24style/)
-
-### Icons
-
-- **b24icons**: The library contains SVG icons for use in the interfaces of both local and mass-market applications for Bitrix24.
-
-  [GitHub Repository](https://github.com/bitrix24/b24icons). Find more details in the [documentation](https://bitrix24.github.io/b24icons/)
-
-## Usage Examples
-
-- **b24sdk-examples**: A collection of examples demonstrating the usage of various Bitrix24 SDKs and tools in real-world scenarios.
-
-  [GitHub Repository](https://github.com/bitrix24/b24sdk-examples). Find more details in the [documentation](https://bitrix24.github.io/b24ui/)
-
-## Application Templates
-
-Ready-to-use application templates that can be deployed quickly using Docker. These templates provide a foundation for building custom business logic on top of Bitrix24.
-
-### Automation rules library
-
-[This project](https://github.com/bitrix24/app-template-automation-rules) is a fully deployable application template featuring a library of Bitrix24 automation rules. It’s designed to work both as a local solution and as a scalable application for the Bitrix24 Marketplace.
-
-You’re getting a complete package here: the frontend is built with the UI Kit and B24JsSDK, while the backend is set up so you can simply add your own automation rule implementations without having to dig into architectural complexities. No need to reinvent the wheel — just take the foundation and customize it to fit your needs. 
-
-## Documentation
-
-- **b24restdocs**: The official repository for Bitrix24 REST API documentation, offering comprehensive guides and references for developers.
-
-  [GitHub Repository](https://github.com/bitrix24/b24restdocs). Read [online version](https://apidocs.bitrix24.com/)
-
-## Additional Resources
-
-- **crest**: CRest is a minimalistic PHP library for calling Bitrix24 REST methods via webhooks and OAuth 2.0.
-
-  [GitHub Repository](https://github.com/bitrix-tools/crest)
+Questa versione mantiene la compatibilità con l’architettura originale, ma introduce un approccio più modulare, pulito e orientato all’automazione, con un focus specifico sull'integrazione blockchain e l'intelligenza artificiale.
 
 ---
 
-This hub aims to simplify navigation through Bitrix24's development tools, enabling you to build robust integrations and applications efficiently.
+## ✨ Caratteristiche Principali
+
+### 🔹 1. Compatibilità Estesa
+*   **CRM Completo**: Gestione clienti, vendite e marketing.
+*   **Gestione Attività e Progetti**: Strumenti avanzati per la pianificazione e il monitoraggio.
+*   **Collaborazione Integrata**: Calendari, gruppi di lavoro e pipeline personalizzabili.
+*   **Moduli Aziendali Standard**: Funzionalità essenziali per ogni tipo di business.
+
+### 🔹 2. Enterprise Hardening
+*   **Architettura Pulita**: Struttura logica dei moduli e configurazioni centralizzate.
+*   **Ottimizzazione CI/CD**: Miglioramenti per deployment continui e integrazione continua.
+*   **Sicurezza Avanzata**: Implementazione di best practice per la protezione dei dati.
+
+### 🔹 3. Integrazione CloudX × ZDOS
+Questo fork è progettato per essere un componente chiave del tuo ecosistema:
+*   **CloudX Portal**: Accesso centralizzato e unificato.
+*   **ZDOS Automations**: Micro-servizi e workflow intelligenti.
+*   **DSN Wallet**: Identità digitale e firma elettronica.
+*   **xCLOUD Business Layer**: Strato modulare per le operazioni aziendali.
+
+### 🔹 4. Blockchain Ready (DSN)
+Supporto opzionale per l'integrazione con tecnologie blockchain:
+*   **Registrazione Eventi On-Chain**: Tracciabilità immutabile delle operazioni.
+*   **Audit Trail Distribuito**: Garanzia di trasparenza e integrità dei dati.
+*   **Firma Digitale**: Autenticazione sicura delle transazioni.
+*   **Smart Contract Aziendali**: Integrazione con logiche di business decentralizzate.
+
+---
+
+## 🧩 Architettura
+
+La struttura del progetto è organizzata per facilitare lo sviluppo e la manutenzione:
+
+```
+xCLOUD-enterprise/
+│
+├── core/                # Moduli principali di xCLOUD
+├── modules/             # Estensioni e plugin personalizzati
+├── cloudx/              # Integrazioni specifiche con CloudX
+│   ├── dsn/             # Adapter per la blockchain DSN
+│   └── zdos/            # Automazioni e hooks ZDOS
+├── config/              # Configurazioni centralizzate del sistema
+└── docs/                # Documentazione tecnica e guide
+```
+
+---
+
+## ⚙️ Installazione
+
+Per iniziare con xCLOUD Enterprise, segui questi passaggi:
+
+1.  **Clona il repository**:
+    ```bash
+    git clone https://github.com/high-cde/xCLOUD-enterprise.git
+    cd xCLOUD-enterprise
+    ```
+
+2.  **Installa le dipendenze**:
+    ```bash
+    composer install
+    npm install
+    ```
+
+3.  **Configura l’ambiente**:
+    ```bash
+    cp .env.example .env
+    ```
+    Modifica il file `.env` con i parametri necessari (database, URL, configurazioni DSN blockchain opzionali).
+
+---
+
+## 🔗 Integrazioni Ecosistema ZDOS
+
+*   **🌐 CloudX Portal**: Accesso centralizzato: [https://x-zdos.it](https://x-zdos.it)
+*   **🧠 ZDOS Automations**: Micro-servizi e workflow intelligenti: [https://x-zdos.it/zdos](https://x-zdos.it/zdos)
+*   **💳 DSN Wallet**: Identità digitale e firma: [https://wallet.x-zdos.it](https://wallet.x-zdos.it)
+
+---
+
+## 🤝 Contributi
+
+Pull request e fork sono benvenuti. Per integrazioni avanzate con CloudX × ZDOS, si prega di contattare l’amministratore del progetto.
+
+---
+
+## 📄 Licenza
+
+Distribuito sotto licenza MIT. Vedi il file `LICENSE` per maggiori dettagli.
+
+---
+
+## 🧬 Roadmap
+
+*   [ ] Modulo CRM potenziato
+*   [ ] Dashboard CloudX unificata
+*   [ ] DSN Smart Contract Registry
+*   [ ] Automazioni ZDOS integrate
+*   [ ] UI rinnovata in stile neon-minimal
